@@ -1,0 +1,35 @@
+.experience-card {
+    border-bottom: 1px solid #ddd;
+    padding: 1.5em;
+    margin-bottom: 1.5em;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .experience-card:hover {
+    transform: scale(1.02);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .experience-card h3 {
+    color: #333;
+    margin-bottom: 0.5em;
+  }
+  
+  .experience-card .company {
+    color: #555;
+    font-weight: bold;
+  }
+  
+  .experience-card .date {
+    color: #777;
+    margin-bottom: 0.5em;
+  }
+  
+  .experience-card .description {
+    list-style-type: disc;
+    color: #555;
+    padding-left: 1.5em;
+  }
+  
+  /* Add more styles as needed */
+  
