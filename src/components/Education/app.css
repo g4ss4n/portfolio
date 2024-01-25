@@ -1,0 +1,43 @@
+#education {
+padding: 2em;
+  }
+  
+  #education h2 {
+    color: #333;
+    margin-bottom: 1em;
+    
+  }
+  
+  .education-card {
+    border-bottom: #b4b4b4 1px solid;
+    margin-bottom: 2em;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+  }
+  
+  
+  .education-card h4 {
+    color: #333;
+    margin-bottom: 0.5em;
+  }
+
+  .education-card p {
+    color: #333;
+    margin-left: 2em;
+  }
+  
+  .education-card .institution {
+    color: #555;
+  }
+  
+  .education-card .date {
+    color: #777;
+    margin-bottom: 2em;
+  }
+  
+  .education-card .description {
+    color: #555;
+  }
+  
+  /* Add more styles as needed */
+  
