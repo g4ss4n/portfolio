@@ -1,13 +1,13 @@
 .header {
     background-color: #333;
     color: #fff;
-    padding: 1em;
     text-align: center;
     position: fixed; /* Set position to fixed */
     width: 100%; /* Make the header span the full width */
     top: 0; /* Stick the header to the top of the viewport */
     z-index: 1000; /* Ensure the header is above other elements on the page */
-    transition: background-color 0.3s ease;
+    box-shadow: #333 0 0 5px;
+    font-weight: medium;
   }
   
   .header-title {
@@ -17,18 +17,19 @@
   .nav {
     display: flex;
     justify-content: space-around;
-    margin-top: 1em;
   }
   
   .nav-link {
     color: #fff;
     text-decoration: none;
-    padding: 0.5em;
-    border-radius: 4px;
+    padding: 1em;
     transition: background-color 0.3s ease;
+    border: #05050500 3px solid;
   }
   
   .nav-link:hover {
-    background-color: #555;
+    border-bottom: #718cf7 3px solid;
+    color: #718cf7;
+    transition: 200ms ease;
   }
   
